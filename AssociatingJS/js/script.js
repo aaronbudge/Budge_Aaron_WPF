@@ -1,3 +1,4 @@
-/**
- * Created by AaronBudge on 10/9/13.
- */
+// JavaScript
+
+//this changes the css of your body tag to be green
+document.querySelector("body").style.backgroundColor= "#00FF00";
