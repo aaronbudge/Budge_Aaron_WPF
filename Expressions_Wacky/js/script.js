@@ -12,4 +12,5 @@ var trashRemoval = parseInt(prompt("How many time did you forget to take out the
 var bouquet = ["3 Lilly's", "3 Tulips", "3 Daisy's", "3 Roses"];
 
 var lilly = parseInt(bouquet[0]);
+var tulip = parseInt(bouquet[1]);
 
