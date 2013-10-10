@@ -4,3 +4,5 @@
 
 
 //Calculate how much you will spend on laundry detergent each year
+
+var detergentPrice = prompt("What do you pay for a bottle of laundry detergent?");
