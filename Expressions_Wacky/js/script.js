@@ -20,5 +20,5 @@ var flowersInBouquet = lilly + tulip + daisy + rose;
 var totalBouquets = fightsPerMonth + homeLate + trashRemoval;
 
 var flowersGiven = totalBouquets * flowersInBouquet;
-
+console.log("You will need to purchase " + flowersGiven + " flowers for your wife this month.");
 
