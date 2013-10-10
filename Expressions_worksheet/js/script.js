@@ -44,3 +44,15 @@ var averageTotal = groceryTotal / 5;
 //Print out result for the average amount spent on groceries over the past five weeks
 console.log("You have spent a total of $" + groceryTotal + " " + "on groceries over 5 weeks. That is an average of $" + averageTotal + " " + "per week.");
 
+// Discounts
+
+//Calculate the discounted price with and without tax.
+var originalPrice = 300; //Initialize items original price
+var percentDiscount = 10; //Initialize discount percentage
+var itemName = "Phone"; //Initialize item name
+var salesTax = 7.25; //Initialize tax rate
+
+var total = originalPrice * (1-percentDiscount/100); //Calculate the total after discount without tax
+var totalWithTax = total + salesTax/100 * total; //calculate total with tax after discount is applied
+//Print out result for the discounted price with and without tax.
+console.log("Your " + itemName + " was originally $" + originalPrice + ", but after a " + percentDiscount  + " discount, it is now $" + total + " " + "without tax, and $" + totalWithTax + " with tax.")
