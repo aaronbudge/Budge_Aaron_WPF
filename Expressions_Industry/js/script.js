@@ -14,5 +14,5 @@ var profitGoal = prompt("How much profit would you like to earn annually?"); //D
 var totalExpenses = Number(yearlyBizCost) + Number(yearlyPersonalCost) + Number(profitGoal);//Calculation totalling personal expenses, business expenses, and intended profit
 var billableHours = weeksPerYear * daysPerWeek * hoursPerDay; //Calculation to determine the amount of billable hours
 
-var hourlyRate = totalExpenses / billableHours;
+var hourlyRate = totalExpenses / billableHours; //Calculation of hourly rate based on total expenses divided by billable hours
 console.log("Your hourly rate should start at $" + hourlyRate + " per hour.");
