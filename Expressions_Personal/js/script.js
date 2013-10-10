@@ -10,4 +10,4 @@ var loadsPerBottle = prompt("How many loads can your bottle of detergent wash?")
 var loadsPerWeek = prompt("How many loads per week do you do?"); //Determine how many loads of laundry the user does each week.
 
 var yearlyCost = 52 * loadsPerWeek / loadsPerBottle * detergentPrice; //Calculate the total cost of laundry detergent per year.
-console.log("Your cost of laundry detergent is " + "\$" + yearlyCost + " per year.");
+console.log("Your cost of laundry detergent is " + "\$" + yearlyCost + " per year."); //Print result of the calculation above to console.log
