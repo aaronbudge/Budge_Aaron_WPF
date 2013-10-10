@@ -6,3 +6,4 @@
 
 var yearlyBizCost = prompt("Please enter the total cost of your annual business expenses.");
 var yearlyPersonalCost = prompt("Please enter the total cost of your annual personal expenses.");
+var weeksPerYear = prompt("How many weeks per year do you intend to work?");
