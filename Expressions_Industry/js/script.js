@@ -11,7 +11,7 @@ var daysPerWeek = prompt("How many days per week will you work?"); //Determine h
 var hoursPerDay = prompt("How many hours will you work each day?"); //Determine how many hours per day the user works.
 var profitGoal = prompt("How much profit would you like to earn annually?"); //Determine the amount of profit the user would like to earn
 
-var totalExpenses = Number(yearlyBizCost) + Number(yearlyPersonalCost) + Number(profitGoal);
+var totalExpenses = Number(yearlyBizCost) + Number(yearlyPersonalCost) + Number(profitGoal);//Calculation totalling personal expenses, business expenses, and intended profit
 var billableHours = weeksPerYear * daysPerWeek * hoursPerDay;
 
 var hourlyRate = totalExpenses / billableHours;
