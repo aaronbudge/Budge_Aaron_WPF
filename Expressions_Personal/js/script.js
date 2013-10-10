@@ -6,4 +6,4 @@
 //Calculate how much you will spend on laundry detergent each year
 
 var detergentPrice = prompt("What do you pay for a bottle of laundry detergent?"); //Determine how much a user spends on a bottle of detergent.
-var loadsPerBottle = prompt("How many loads can your bottle of detergent wash?");
+var loadsPerBottle = prompt("How many loads can your bottle of detergent wash?"); //Determine how many loads each user specified bottle can wash.
