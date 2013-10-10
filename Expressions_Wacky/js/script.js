@@ -16,3 +16,5 @@ var tulip = parseInt(bouquet[1]);
 var daisy = parseInt(bouquet[2]);
 var rose = parseInt(bouquet[3]);
 
+var flowersInBouquet = lilly + tulip + daisy + rose;
+
