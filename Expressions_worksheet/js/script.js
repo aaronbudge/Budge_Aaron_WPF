@@ -23,6 +23,17 @@ var pizzaPerGuest = pizzaSlices * pizzasOrdered / partyGuests; //Declare and def
 //Print out result showing how many slices each guest ate
 console.log("Each person ate" + " " + pizzaPerGuest + " " + "slices of pizza at the party.");
 
+//Slice of Pie part 2
+
+//Calculate how many slices are left for Sparky after evenly dividing whole slices to the guests
+var pizzaSlices = 7; //Declare and define given variable
+var partyGuests = 31; //Declare and define given variable
+var pizzasOrdered = 12; //Declare and define given variable
+
+var remainingSlices = (pizzaSlices * pizzasOrdered) % partyGuests; //Declare and define result variable
+//Print out result showing how many slices remain for Sparky
+console.log("Sparky got" + " " + remainingSlices + " " + "slices of pizza.");
+
 
 
 
