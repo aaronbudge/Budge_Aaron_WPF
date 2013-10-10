@@ -12,5 +12,17 @@ var dogAge = actualAge * 7; //Declare and define result variable
 //Print out result of age in dog years
 console.log("Sparky is" + " " + actualAge + " " + "human years old which is" + " " + dogAge + " " + "in dog years");
 
+//Slice of Pie part 1
+
+//Calculate how many slices of pizza each party guest ate
+var pizzaSlices = 7; //Declare and define given variable
+var partyGuests = 31; //Declare and define given variable
+var pizzasOrdered = 12; //Declare and define given variable
+
+var pizzaPerGuest = pizzaSlices * pizzasOrdered / partyGuests; //Declare and define result variable
+//Print out result showing how many slices each guest ate
+console.log("Each person ate" + " " + pizzaPerGuest + " " + "slices of pizza at the party.");
+
+
 
 
