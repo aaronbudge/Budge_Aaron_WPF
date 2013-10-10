@@ -14,4 +14,5 @@ var bouquet = ["3 Lilly's", "3 Tulips", "3 Daisy's", "3 Roses"];
 var lilly = parseInt(bouquet[0]);
 var tulip = parseInt(bouquet[1]);
 var daisy = parseInt(bouquet[2]);
+var rose = parseInt(bouquet[3]);
 
