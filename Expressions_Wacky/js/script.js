@@ -6,7 +6,7 @@
 //Calculate how many flowers you will have to buy for your wife this month.
 
 var fightsPerMonth = parseInt(prompt("How many times per month do you argue with your wife?")); //Determine and parse the number of times the user argues with there wife
-var homeLate = parseInt(prompt("How many times did you stay out late this month?"));
+var homeLate = parseInt(prompt("How many times did you stay out late this month?")); //Determine and parse the number of times the user stayed out to late
 var trashRemoval = parseInt(prompt("How many time did you forget to take out the trash this month?"));
 
 var bouquet = ["3 Lilly's", "3 Tulips", "3 Daisy's", "3 Roses"];
