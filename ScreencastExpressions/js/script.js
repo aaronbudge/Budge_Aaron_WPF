@@ -65,11 +65,11 @@ console.log(total);
 
 // Concatenating Strings
 
-var firstName = "Aaron";
-var lastName = "Budge";
-var fullName = firstName + " " + lastName;
+var a = 6;
+var b = 7;
 
-console.log(fullName);
+var result = a + b;
+console.log(result);
 
 
 
