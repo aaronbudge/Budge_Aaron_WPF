@@ -17,7 +17,7 @@ var daisy = parseInt(bouquet[2]); //Parse array index 2
 var rose = parseInt(bouquet[3]); //Parse array index 3
 
 var flowersInBouquet = lilly + tulip + daisy + rose; //Determine how many flowers are in a bouquet
-var totalBouquets = fightsPerMonth + homeLate + trashRemoval;
+var totalBouquets = fightsPerMonth + homeLate + trashRemoval; //Determine the total number of bouquets 
 
 var flowersGiven = totalBouquets * flowersInBouquet;
 console.log("You will need to purchase " + flowersGiven + " flowers for your wife this month.");
