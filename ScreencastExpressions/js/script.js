@@ -23,10 +23,16 @@ console.log(age);
 //Arithmetic Operators
 
 //Area of the triangle is half the width times the height
+/*
 var width = 8;
 var height = 7;
 var area = width * height/2;
 console.log(area);
+*/
 
+// Modulo (used to find the remainder) designated by the % symbol
+
+var remainder = 9 % 2;
+console.log(remainder);
 
 
