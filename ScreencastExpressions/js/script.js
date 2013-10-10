@@ -73,13 +73,23 @@ console.log(result);
 */
 
 // Casting
-
+/*
 var areaCode = 407;
 var firstPart = 203;
 var secPart = 4529;
 
 var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
 console.log(phoneNo);
+*/
+
+// Assignment Operators
+
+var a = 3;
+//a += 4;  // the same as a = a + 4
+a --;  // the same as a = a - 1 // the same as a -= 1
+console.log(a);
+
+
 
 
 
