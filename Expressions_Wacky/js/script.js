@@ -12,7 +12,7 @@ var trashRemoval = parseInt(prompt("How many time did you forget to take out the
 var bouquet = ["3 Lilly's", "3 Tulips", "3 Daisy's", "3 Roses"]; //Declare and define the types and amounts of flowers in the array
 
 var lilly = parseInt(bouquet[0]); //Parse array index 0
-var tulip = parseInt(bouquet[1]);
+var tulip = parseInt(bouquet[1]); //Parse array index 1
 var daisy = parseInt(bouquet[2]);
 var rose = parseInt(bouquet[3]);
 
