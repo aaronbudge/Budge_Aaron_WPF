@@ -16,7 +16,7 @@ var tulip = parseInt(bouquet[1]); //Parse array index 1
 var daisy = parseInt(bouquet[2]); //Parse array index 2
 var rose = parseInt(bouquet[3]); //Parse array index 3
 
-var flowersInBouquet = lilly + tulip + daisy + rose;
+var flowersInBouquet = lilly + tulip + daisy + rose; //Determine how many flowers are in a bouquet
 var totalBouquets = fightsPerMonth + homeLate + trashRemoval;
 
 var flowersGiven = totalBouquets * flowersInBouquet;
