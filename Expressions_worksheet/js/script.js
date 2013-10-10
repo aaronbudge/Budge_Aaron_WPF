@@ -34,6 +34,13 @@ var remainingSlices = (pizzaSlices * pizzasOrdered) % partyGuests; //Declare and
 //Print out result showing how many slices remain for Sparky
 console.log("Sparky got" + " " + remainingSlices + " " + "slices of pizza.");
 
+// Average Shopping Bill
 
+//Calculate the average amount spent on groceries over the past five weeks
+var weeklyTotals = [79, 121, 53, 178, 200]; //Declare and Define weekly grocery spending in an Array
 
+var groceryTotal = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyTotals[3] + weeklyTotals[4]; //Calculate the total amount spent on groceries
+var averageTotal = groceryTotal / 5;
+//Print out result for the average amount spent on groceries over the past five weeks
+console.log("You have spent a total of $" + groceryTotal + " " + "on groceries over 5 weeks. That is an average of $" + averageTotal + " " + "per week.");
 
