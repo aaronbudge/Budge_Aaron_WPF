@@ -19,3 +19,6 @@ var rose = parseInt(bouquet[3]);
 var flowersInBouquet = lilly + tulip + daisy + rose;
 var totalBouquets = fightsPerMonth + homeLate + trashRemoval;
 
+var flowersGiven = totalBouquets * flowersInBouquet;
+
+
