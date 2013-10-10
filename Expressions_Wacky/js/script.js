@@ -14,7 +14,7 @@ var bouquet = ["3 Lilly's", "3 Tulips", "3 Daisy's", "3 Roses"]; //Declare and d
 var lilly = parseInt(bouquet[0]); //Parse array index 0
 var tulip = parseInt(bouquet[1]); //Parse array index 1
 var daisy = parseInt(bouquet[2]); //Parse array index 2
-var rose = parseInt(bouquet[3]);
+var rose = parseInt(bouquet[3]); //Parse array index 3
 
 var flowersInBouquet = lilly + tulip + daisy + rose;
 var totalBouquets = fightsPerMonth + homeLate + trashRemoval;
