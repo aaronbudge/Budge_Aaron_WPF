@@ -3,9 +3,9 @@
 // Expressions_Wacky
 
 
-//Calculate how many flowers you will have to buy for your spouse this month.
+//Calculate how many flowers you will have to buy for your wife this month.
 
-var fightsPerMonth = parseInt(prompt("How many times per month do you argue with your spouse?"));
+var fightsPerMonth = parseInt(prompt("How many times per month do you argue with your wife?")); //Determine and parse the number of times the user argues with there wife
 var homeLate = parseInt(prompt("How many times did you stay out late this month?"));
 var trashRemoval = parseInt(prompt("How many time did you forget to take out the trash this month?"));
 
