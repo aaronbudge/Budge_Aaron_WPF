@@ -20,5 +20,5 @@ var flowers = lilly + tulip + daisy + rose; //Calculate and determine how many f
 var totalBouquets = fightsPerMonth + homeLate + trashRemoval; //Calculate and determine the total number of bouquets
 
 flowers *= totalBouquets; //Calculate and determine the total number of flowers the user must buy
-console.log("You will need to purchase " + flowers + " flowers for your wife this month.");
+console.log("You will need to purchase " + flowers + " flowers for your wife this month."); //Print out result of calculation to console log
 
