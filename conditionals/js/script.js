@@ -24,3 +24,18 @@ if(kidHeight > minHeight){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
+
+
+//Condition with Expressions
+
+var kidHeight = 47;
+var minHeight = 48;
+var sneakerLift = 2;
+
+//if the kid is over 48 inches in height
+if(kidHeight + sneakerLift > minHeight){
+    //code performed if condition is true
+    console.log("You can ride the coaster!");
+}
+
+
