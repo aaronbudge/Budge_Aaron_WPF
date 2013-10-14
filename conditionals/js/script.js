@@ -84,3 +84,16 @@ if(iPhonePrice < budget || wonLottery){
     console.log("No phone for you!!");
 }
 
+//Ternary Operators
+
+var gpa = 48;
+
+//If the gpa is over the min 2.0 score, the student can graduate
+if(gpa > 2.0){
+    console/log("You can graduate!");
+}else{
+    console.log("GPA is to low!");
+}
+
+
+
