@@ -8,3 +8,4 @@
 //Last Chance for Gas!
 //Can you make it across the desert with your current fuel?
 var mpg = 17; //Initialize gas efficiency in miles per gallon
+var tankLevel = .35; 
