@@ -40,3 +40,5 @@ if(username != accountName){ // Test condition
 if(username === accountName && password != accountPassword){ //Test multiple conditions
     console.log("Password does not match our records."); //Print to console if condition is true
 }
+
+//Group 3: Multiple Conditions
