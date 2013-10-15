@@ -32,8 +32,8 @@ var accountName = "username"; //Initialize variable with string value
 var accountPassword = "password"; //Initialize variable with string value
 
 if(username === accountName && password === accountPassword){  //Test multiple conditions
-    console.log("Welcome, " + username + "!"); //Code to perform if statement is true
+    console.log("Welcome, " + username + "!"); //Print to console if condition is true
 }
-if(username != accountName){
-    console.log("User not found. Try again.");
+if(username != accountName){ // Test condition
+    console.log("User not found. Try again."); //Print to console if condition is true
 }
