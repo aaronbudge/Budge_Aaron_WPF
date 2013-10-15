@@ -11,4 +11,4 @@ var mpg = 17; //Initialize gas efficiency in miles per gallon
 var tankLevel = .35; //Initialize the reading from the gas gauge
 var tankCapacity = 25; //Initialize how much gas the gas tank will hold
 
-var gasInTank = tankCapacity * tankLevel; 
+var gasInTank = tankCapacity * tankLevel; //Calculate how much gas is in the tank
