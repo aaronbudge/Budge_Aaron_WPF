@@ -31,6 +31,6 @@ var password = prompt("Please enter your password."); //Created variable and use
 var accountName = "username"; //Initialize variable with string value
 var accountPassword = "password"; //Initialize variable with string value
 
-if(username === accountName && password === accountPassword){
-    console.log("Welcome, " + username + "!");
+if(username === accountName && password === accountPassword){  //Test multiple conditions
+    console.log("Welcome, " + username + "!"); //Code to perform if statement is true
 }
