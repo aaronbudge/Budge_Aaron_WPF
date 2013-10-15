@@ -37,6 +37,6 @@ if(username === accountName && password === accountPassword){  //Test multiple c
 if(username != accountName){ // Test condition
     console.log("User not found. Try again."); //Print to console if condition is true
 }
-if(username === accountName && password != accountPassword){
-    console.log("Password does not match our records.");
+if(username === accountName && password != accountPassword){ //Test multiple conditions
+    console.log("Password does not match our records."); //Print to console if condition is true
 }
