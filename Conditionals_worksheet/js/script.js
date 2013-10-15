@@ -27,4 +27,4 @@ if(milesTillEmpty > 200){ //Test condition
 //Check the Login
 //Is the username and password correct?
 var username = prompt("Please enter your username."); //Created variable and user prompt for "username"
-var password = prompt("Please enter your password."); 
+var password = prompt("Please enter your password."); //Created variable and user prompt for "password"
