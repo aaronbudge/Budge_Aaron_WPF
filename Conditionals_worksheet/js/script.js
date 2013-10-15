@@ -12,4 +12,4 @@ var tankLevel = .35; //Initialize the reading from the gas gauge
 var tankCapacity = 25; //Initialize how much gas the gas tank will hold
 
 var gasInTank = tankCapacity * tankLevel; //Calculate how much gas is in the tank
-var milesTillEmpty = gasInTank * mpg; 
+var milesTillEmpty = gasInTank * mpg; //Calculate how many miles the car can go before running out of gas
