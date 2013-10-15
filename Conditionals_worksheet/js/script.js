@@ -21,3 +21,5 @@ if(milesTillEmpty > 200){ //Test condition
     //Code to perform if condition is false
     console.log("You only have " + gasInTank + " gallons of gas in your tank, better get gas now while you can!");
 }
+
+//Group 2: Multiple Results
