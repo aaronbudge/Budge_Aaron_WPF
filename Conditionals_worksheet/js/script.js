@@ -51,5 +51,5 @@ var customerAge = 50; //Declare and initialize the customerAge variable
 if((customerAge >= 55 || customerAge) < 10 || (movieTime > 3 && movieTime < 5)){ //Test multiple conditions
     console.log("The ticket price is $7.00."); //Print to console if condition is true
 }else{
-    console.log("The ticket price is $12.00.");
+    console.log("The ticket price is $12.00."); //Print to console unless previous condition is true
 }
