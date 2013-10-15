@@ -45,4 +45,4 @@ if(username === accountName && password != accountPassword){ //Test multiple con
 
 //Movie Ticket Price
 //What price is the customer eligible for?
-var movieTime = 5;
+var movieTime = 5; //Declare and initialize the movieTime variable
