@@ -18,5 +18,6 @@ if(milesTillEmpty > 200){ //Test condition
     //Code to perform if condition is true
     console.log("Yes, you can make it without stopping for gas!");
 }else{
+    //Code to perform if condition is false
     console.log("You only have " + gasInTank + " gallons of gas in your tank, better get gas now while you can!");
 }
