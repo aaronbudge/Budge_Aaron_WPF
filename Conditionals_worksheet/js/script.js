@@ -17,4 +17,6 @@ var milesTillEmpty = gasInTank * mpg; //Calculate how many miles the car can go 
 if(milesTillEmpty > 200){ //Test condition
     //Code to perform if condition is true
     console.log("Yes, you can make it without stopping for gas!");
+}else{
+    console.log("You only have " + gasInTank + " gallons of gas in your tank, better get gas now while you can!");
 }
