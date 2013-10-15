@@ -13,3 +13,7 @@ var tankCapacity = 25; //Initialize how much gas the gas tank will hold
 
 var gasInTank = tankCapacity * tankLevel; //Calculate how much gas is in the tank
 var milesTillEmpty = gasInTank * mpg; //Calculate how many miles the car can go before running out of gas
+
+if(milesTillEmpty > 200){
+    console.log("Yes, you can make it without stopping for gas!");
+}
