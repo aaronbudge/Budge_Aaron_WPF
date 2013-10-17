@@ -19,4 +19,5 @@ if(dateType === "a" && kids < 5){//Test condition
     console.log("You have a \%" + parseInt(odds) + " chance of getting lucky tonight!");//Print out to console log if condition is true
 }else if(dateType === "c" && kids < 5){ //Condition to test
     var drinks = prompt("How many drinks will your spouse have?"); //Variable to declare and define if condition is true
-
+    if(drinks >= 4 && kids < 5){
+        
