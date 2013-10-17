@@ -15,6 +15,6 @@ pages--; //Decreased page amount by 1 to account for homepage included in base c
 
 var codingHrs = 15 + pages * addPage; //Declare and initiate the total hours needed for page coding
 var designHrs = 20 + design * addDesign; //Declare, define, and initialize the total hours needed for page design
-var totalHours = codingHrs + designHrs;
+var totalHours = codingHrs + designHrs; //Declare, calculate and define the total hours for project
 
 
