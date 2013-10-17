@@ -11,3 +11,6 @@ var kids = prompt("How many kids under the age of 8 do you have?"); //Declare an
 if(kids >= 5){ //Test condition
     console.log("Why are you asking? With that many kids, you're obviously getting some!");//Print out result to console log if condition is true
 }
+if(dateType === "a" && kids < 5){
+    
+}
