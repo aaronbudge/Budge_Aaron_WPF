@@ -13,4 +13,5 @@ if(kids >= 5){ //Test condition
 }
 if(dateType === "a" && kids < 5){
     var odds = 65 / kids;
+    console.log("You have a \%" + parseInt(odds) + " chance of getting lucky tonight!");
 }
