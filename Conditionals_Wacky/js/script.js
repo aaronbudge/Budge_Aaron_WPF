@@ -20,4 +20,5 @@ if(dateType === "a" && kids < 5){//Test condition
 }else if(dateType === "c" && kids < 5){ //Condition to test
     var drinks = prompt("How many drinks will your spouse have?"); //Variable to declare and define if condition is true
     if(drinks >= 4 && kids < 5){
-        
+        console.log("Forget the movie and head home, you're getting lucky tonight!");
+    }
