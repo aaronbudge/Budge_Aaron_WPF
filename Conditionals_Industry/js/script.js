@@ -9,4 +9,4 @@ var pages = prompt("How many pages will your site have?"); //Declare variable an
 var design = prompt("How many pages will have their own design?"); //Declare variable and initiate user prompt
 
 var codingBase = 15; //Declare and initiate the base hours needed for page coding
-var designBase = 20;
+var designBase = 20; //Declare, define, and initialize the base hours needed for page design
