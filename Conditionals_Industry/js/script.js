@@ -18,6 +18,8 @@ var designHrs = 20 + design * addDesign; //Declare, define, and initialize the t
 var totalHours = codingHrs + designHrs; //Declare, calculate and define the total hours for project
 
 var projectCost = totalHours * hourlyRate; //Declare, define and calculate the total amount billed to the customer
+console.log("We can design and develop your site for $" + projectCost + " dollars.");
+
 
 
 
