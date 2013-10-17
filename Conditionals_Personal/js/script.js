@@ -11,8 +11,5 @@ var hotWaterTime = waterTank / waterFlow; //Declare, calculate and define variab
 var totalPeople = hotWaterTime / showerTime; //Declare, calculate and define variable
 
 
-if(hotWaterTime <= showerTime){ //Test condition
-    console.log("One person will be able to shower for " + hotWaterTime + " minutes, before the water turns cold."); //Print out result to console log if the condition is true
-}else{
-    console.log(parseInt(totalPeople) + " people will be able to complete their shower before the water turns cold."); //Print out to console log if the condition is false
-}
+(hotWaterTime <= showerTime) ? console.log("One person will be able to shower for " + hotWaterTime + " minutes, before the water turns cold.") : console.log(parseInt(totalPeople) + " people will be able to complete their shower before the water turns cold."); //Test condition and print 1st result to console log if true and 2nd result if false
+
