@@ -7,4 +7,4 @@ var waterTank = parseInt(prompt("How many liters of water does your tank hold?")
 var waterFlow = parseInt(prompt("How many liters of water move through your shower head per minute?")); //Declare variable and initiate user prompt to determine water flow in liters per minute
 var showerTime = parseInt(prompt("Enter the average time each person will shower?")); //Declare variable and initiate prompt to determine the per person shower time
 
-var hotWaterTime = waterTank / waterFlow;
+var hotWaterTime = waterTank / waterFlow; //Declare, calculate and define variable
