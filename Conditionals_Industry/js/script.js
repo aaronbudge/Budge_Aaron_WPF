@@ -10,3 +10,4 @@ var design = prompt("How many pages will have their own design?"); //Declare var
 
 var codingBase = 15; //Declare and initiate the base hours needed for page coding
 var designBase = 20; //Declare, define, and initialize the base hours needed for page design
+var addPage = 3;
