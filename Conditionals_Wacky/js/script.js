@@ -16,4 +16,5 @@ if(dateType === "a" && kids < 5){//Test condition
     console.log("You have a \%" + parseInt(odds) + " chance of getting lucky tonight!"); //Print out to console log if condition is true
 }else if(dateType === "b" && kids < 5){
     var odds = 85 / kids;
-    
+    console.log("You have a \%" + parseInt(odds) + " chance of getting lucky tonight!");
+}
