@@ -11,5 +11,5 @@ var hotWaterTime = waterTank / waterFlow; //Declare, calculate and define variab
 
 
 if(hotWaterTime <= showerTime){ //Test condition
-    console.log("One person will be able to shower for " + hotWaterTime + " minutes, before the water turns cold.");
+    console.log("One person will be able to shower for " + hotWaterTime + " minutes, before the water turns cold."); //Print out result to console log if the condition is true
 }
