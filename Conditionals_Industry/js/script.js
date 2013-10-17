@@ -17,4 +17,8 @@ var codingHrs = 15 + pages * addPage; //Declare and initiate the total hours nee
 var designHrs = 20 + design * addDesign; //Declare, define, and initialize the total hours needed for page design
 var totalHours = codingHrs + designHrs; //Declare, calculate and define the total hours for project
 
+var projectCost = totalHours * hourlyRate;
+
+
+
 
