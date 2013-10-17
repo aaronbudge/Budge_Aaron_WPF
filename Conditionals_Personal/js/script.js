@@ -8,7 +8,7 @@ var waterFlow = parseInt(prompt("How many liters of water move through your show
 var showerTime = parseInt(prompt("Enter the average time each person will shower?")); //Declare variable and initiate prompt to determine the per person shower time
 
 var hotWaterTime = waterTank / waterFlow; //Declare, calculate and define variable
-var totalPeople = hotWaterTime / showerTime;
+var totalPeople = hotWaterTime / showerTime; //Declare, calculate and define variable
 
 
 if(hotWaterTime <= showerTime){ //Test condition
