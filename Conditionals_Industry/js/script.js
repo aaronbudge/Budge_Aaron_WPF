@@ -5,4 +5,4 @@
 // Web Design Cost Calculator
 
 // How much will it cost to design and develop your website?
-var codingBase = 15;
+var codingBase = 15; //Declare and initiate the base hours needed for page coding
