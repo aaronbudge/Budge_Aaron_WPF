@@ -10,6 +10,6 @@ var showerTime = parseInt(prompt("Enter the average time each person will shower
 var hotWaterTime = waterTank / waterFlow; //Declare, calculate and define variable
 
 
-if(hotWaterTime >= showerTime){ //Test condition
-
+if(hotWaterTime <= showerTime){ //Test condition
+    console.log("One person will be able to shower for " + hotWaterTime + " minutes, before the water turns cold.");
 }
