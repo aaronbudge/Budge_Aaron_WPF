@@ -8,6 +8,6 @@
 var dateType = prompt("What will you do on your date? \n a: Dinner \n b: Dinner and a Romantic Movie \n c: Dinner, Drinks, and a Romantic Movie"); //Declare and define variable, and initiate user prompt to determine date type
 var kids = prompt("How many kids under the age of 8 do you have?"); //Declare and define variable, and initiate user prompt to determine how many kids the user has
 
-if(kids >= 5){
-    console.log("Why are you asking? With that many kids, you're obviously getting some!");
+if(kids >= 5){ //Test condition
+    console.log("Why are you asking? With that many kids, you're obviously getting some!");//Print out result to console log if condition is true
 }
