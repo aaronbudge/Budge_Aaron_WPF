@@ -22,10 +22,10 @@ var codingCost = codingHrs * hourlyRate; //Declare, define and calculate the tot
 var designCost = designHrs * hourlyRate; //Declare, define and calculate the total cost of creating the designs
 var projectCost = totalHours * hourlyRate; //Declare, define and calculate the total amount billed to the customer
 
-if(design <= 0){
-    console.log("Are you supplying the design? We can code your site for $" + codingCost + " dollars.");
+if(design <= 0){ //Condition to test
+    console.log("Are you supplying the design? We can code your site for $" + codingCost + " dollars.");//Print to console log if condition is true
 }else{
-    console.log("We can design and develop your site for $" + projectCost + " dollars."); //Print out result to console.log
+    console.log("We can design and develop your site for $" + projectCost + " dollars."); //Print to console log if condition is false
 }
 
 
