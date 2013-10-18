@@ -23,4 +23,5 @@ if(dateType === "a" && kids < 5){//Test condition
         console.log("Forget the movie and head home, you're getting lucky tonight!"); //Result to print out to console log if conditions are true.
     }else if(kids > 1 && drinks <= 3){
         var odds = 50 / kids * drinks;
-        
+        console.log("You have a \%" + parseInt(odds) + " chance of getting lucky tonight!");
+    }
