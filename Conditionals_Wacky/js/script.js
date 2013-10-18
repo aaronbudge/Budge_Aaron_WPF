@@ -25,3 +25,4 @@ if(dateType === "a" && kids < 5){//Test condition
         var odds = 50 / kids * drinks; //Variable to declare and define if conditions are true.
         console.log("You have a \%" + parseInt(odds) + " chance of getting lucky tonight!"); //Result to print out if conditions are true.
     }else if(kids <= 1 && drinks <= 3){
+        var odds = 33 / kids * drinks;
