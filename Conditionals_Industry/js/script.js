@@ -6,7 +6,7 @@
 
 // How much will it cost to design and develop a basic website?
 var pages = parseInt(prompt("How many pages will your site have?")); //Declare variable and initiate user prompt
-var design = parseInt(prompt("How many pages will have a different design than the homepage?")); //Declare variable and initiate user prompt
+var design = parseInt(prompt("How many separate designs will you need?")); //Declare variable and initiate user prompt
 
 var addPage = 3; //Declare, define, and initialize the hours needed to code each additional page
 var addDesign = 4; //Declare, define, and initialize the hours needed to design each additional page design
@@ -22,7 +22,12 @@ var codingCost = codingHrs * hourlyRate; //Declare, define and calculate the tot
 var designCost = designHrs * hourlyRate; //Declare, define and calculate the total cost of creating the designs
 var projectCost = totalHours * hourlyRate; //Declare, define and calculate the total amount billed to the customer
 
-console.log("We can design and develop your site for $" + projectCost + " dollars."); //Print out result to console.log
+if(design <= 0){
+    console.log("Are you supplying the design? We can code your site for $" + codingCost + " dollars.");
+}else{
+    console.log("We can design and develop your site for $" + projectCost + " dollars."); //Print out result to console.log
+}
+
 
 
 
