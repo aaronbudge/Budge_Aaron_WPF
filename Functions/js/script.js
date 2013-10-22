@@ -77,7 +77,7 @@ console.log(total);*/
 //Functions - Functions vs Procedures
 
 //This is a function
-function clacAreaF(width, height){
+/*function clacAreaF(width, height){
     var area = width * height;
     return area;
 }
@@ -86,7 +86,20 @@ function clacAreaF(width, height){
 function clacAreaP(width, height){
     var area = width * height;
     console.log(area); //No return
+}*/
+
+// Functions - Anonymous Functions
+
+
+var clacArea = function(width, height){ //Defining
+//Code the function runs
+    var area = width * height;
+    return area;
 }
+
+var a = calcArea(20,30); //Invoking
+
+console.log(a);
 
 
 
