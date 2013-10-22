@@ -5,3 +5,5 @@
 // Circumference
 
 //Calculate the circumference of a circle
+
+var radius = 6;
