@@ -13,3 +13,5 @@ console.log("The circumference of the circle is " + circumference + " inches.");
 function calculateCirc(r){ //Code to be performed when called
     return r * 2 * 3.14; //Result returned to function call variable
 }
+
+//Stung!
