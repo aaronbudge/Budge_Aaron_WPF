@@ -22,6 +22,6 @@ var vicWeight = 200; //Declared and defined variable
 var beeStings = calcBeeStings(vicWeight); //Declared result variable and argument for function call
 console.log("It takes " + beeStings + " bee stings to kill this animal."); //Print result to console log after function is performed and calculation is returned to the result variable.
 
-function calcBeeStings(lbs){
-    return 8.666666667 * lbs;
+function calcBeeStings(lbs){ //Code to be performed when called
+    return 8.666666667 * lbs;  //Calculation to be returned to function call result variable
 }
