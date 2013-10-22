@@ -66,11 +66,27 @@ dogYears(5);*/
 
 // Functions - Returning Values
 
-var total = calcArea(30,20);
+/*var total = calcArea(30,20);
 
 function calcArea(w, h){
     var area = w * h;
     return area; //Function is returning the info back out
 }
-console.log(total);
+console.log(total);*/
+
+//Functions - Functions vs Procedures
+
+//This is a function
+function clacAreaF(width, height){
+    var area = width * height;
+    return area;
+}
+
+//This is a procedure
+function clacAreaP(width, height){
+    var area = width * height;
+    console.log(area); //No return
+}
+
+
 
