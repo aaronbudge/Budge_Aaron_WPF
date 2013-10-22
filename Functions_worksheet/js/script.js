@@ -18,5 +18,5 @@ function calculateCirc(r){ //Code to be performed when called
 
 //Calculate bee stings needed to kill an animal
 
-var vicWeight = 200;
+var vicWeight = 200; //Declared and defined variable
 
