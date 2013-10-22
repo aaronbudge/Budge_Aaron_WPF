@@ -8,3 +8,4 @@
 
 var radius = 6; //Declared and defined variable
 var circumference = calculateCirc(radius); //Declared result variable for function call using an argument
+console.log("The circumference of the circle is " + circumference + " inches.");
