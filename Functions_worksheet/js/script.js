@@ -20,4 +20,4 @@ function calculateCirc(r){ //Code to be performed when called
 
 var vicWeight = 200; //Declared and defined variable
 var beeStings = calcBeeStings(vicWeight); //Declared result variable and argument for function call
-console.log("It takes " + beeStings + " bee stings to kill this animal.");
+console.log("It takes " + beeStings + " bee stings to kill this animal."); //Print result to console log after function is performed and calculation is returned to the result variable.
