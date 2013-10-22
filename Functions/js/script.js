@@ -32,7 +32,7 @@ calcArea(); //Calling the calcArea function*/
 
 //Functions - Variable Scope
 
-var width = 5; //Global variable
+/*var width = 5; //Global variable
 
  function outputMsg (){ //Code block to execute when called
     console.log("Hello World"); //Print to console when function is called
@@ -45,5 +45,23 @@ var width = 5; //Global variable
      console.log(area); //Print to console when function is called
  }
 calcArea(); //Calling the calcArea function
-console.log(width);
+console.log(width);*/
+
+//Functions - Parameters and Arguments
+
+calcArea(30, 20);
+
+function calcArea(w, h){ //w=30, h=20
+    var area = w * h;
+    console.log(area);
+}
+
+function dogYears(age){ //Parameters
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.");
+}
+var age1 = 4;
+dogYears(age1); //Arguments
+dogYears(5);
+
 
