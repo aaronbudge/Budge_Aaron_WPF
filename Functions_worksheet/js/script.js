@@ -15,3 +15,5 @@ function calculateCirc(r){ //Code to be performed when called
 }
 
 //Stung!
+
+//Calculate bee stings needed to kill an animal
