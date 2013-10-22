@@ -10,6 +10,6 @@ var radius = 6; //Declared and defined variable
 var circumference = calculateCirc(radius); //Declared result variable for function call using an argument
 console.log("The circumference of the circle is " + circumference + " inches."); //Print result to console log after function is performed and returned to the result variable.
 
-function calculateCirc(r){
-    return r * 2 * 3.14;
+function calculateCirc(r){ //Code to be performed when called
+    return r * 2 * 3.14; //Result returned to function call variable
 }
