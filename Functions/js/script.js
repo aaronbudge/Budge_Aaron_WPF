@@ -49,7 +49,7 @@ console.log(width);*/
 
 //Functions - Parameters and Arguments
 
-calcArea(30, 20);
+/*calcArea(30, 20);
 
 function calcArea(w, h){ //w=30, h=20
     var area = w * h;
@@ -62,6 +62,15 @@ function dogYears(age){ //Parameters
 }
 var age1 = 4;
 dogYears(age1); //Arguments
-dogYears(5);
+dogYears(5);*/
 
+// Functions - Returning Values
+
+var total = calcArea(30,20);
+
+function calcArea(w, h){
+    var area = w * h;
+    return area; //Function is returning the info back out
+}
+console.log(total);
 
