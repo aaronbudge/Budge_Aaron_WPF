@@ -7,3 +7,4 @@
 //Calculate the circumference of a circle
 
 var radius = 6; //Declared and defined variable
+var circumference = calculateCirc(radius);
