@@ -14,4 +14,4 @@ var calcGallons = function(l, w, d){ //Declare and define anonymous function
 
 var gallons = calcGallons(tubLength, tubWidth, tubDepth); //Declare result variable for returned value / call function calcGallons
 
-(tubLength != "" && tubWidth != "" && tubDepth != "") ? console.log("Your bathtub can hold " + gallons + " gallons of water.") :
+(tubLength != "" && tubWidth != "" && tubDepth != "") ? console.log("Your bathtub can hold " + gallons + " gallons of water.") : console.log("Something went wrong. Please enter your measurements again.");
