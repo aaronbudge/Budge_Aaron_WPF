@@ -11,3 +11,5 @@ var tubDepth = prompt("How many inches are between the bottom of your tub and th
 var calcGallons = function(l, w, d){ //Declare and define anonymous function
     return l * w * d / 231; //Code to calculate and return when function is called
 }
+
+var gallons = calcGallons(tubLength, tubWidth, tubDepth);
