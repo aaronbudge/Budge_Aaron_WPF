@@ -9,3 +9,5 @@ var target = prompt("Please enter your targeted width in pixels."); //Declare va
 function calcPercent(target, total){ //Declare and define function
     return target / total * 100; //Code to be calculated and returned when the function is called
 }
+
+var percent = calcPercent(target, totalWidth);
