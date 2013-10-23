@@ -14,4 +14,6 @@ var percent = calcPercent(target, totalWidth); //Declared result variable, calle
 
 if(totalWidth === "" && target === ""){ //Set conditions to check
     console.log("You haven't entered any information. Please try again."); //Print to console log if conditions are true
+}else if(totalWidth === "" && target != ""){
+    
 }
