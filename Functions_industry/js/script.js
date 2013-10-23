@@ -12,6 +12,6 @@ function calcPercent(target, total){ //Declare and define function
 
 var percent = calcPercent(target, totalWidth); //Declared result variable, called and passed arguments to calcPercent function
 
-if(totalWidth === "" && target === ""){
-    
+if(totalWidth === "" && target === ""){ //Set conditions to check
+
 }
