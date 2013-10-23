@@ -13,3 +13,5 @@ var calcGallons = function(l, w, d){ //Declare and define anonymous function
 }
 
 var gallons = calcGallons(tubLength, tubWidth, tubDepth); //Declare result variable for returned value / call function calcGallons
+
+(tubLength != "" && tubWidth != "" && tubDepth != "") ?
