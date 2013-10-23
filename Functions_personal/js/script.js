@@ -12,4 +12,4 @@ var calcGallons = function(l, w, d){ //Declare and define anonymous function
     return l * w * d / 231; //Code to calculate and return when function is called
 }
 
-var gallons = calcGallons(tubLength, tubWidth, tubDepth);
+var gallons = calcGallons(tubLength, tubWidth, tubDepth); //Declare result variable for returned value / call function calcGallons
