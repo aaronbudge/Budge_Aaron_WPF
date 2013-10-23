@@ -16,6 +16,6 @@ if(totalWidth === "" && target === ""){ //Set conditions to check
     console.log("You haven't entered any information. Please try again."); //Print to console log if conditions are true
 }else if(totalWidth === "" && target != ""){ //Set conditions to check
     console.log("You haven't entered a total width. Please try again."); //Print to console log if conditions are true
-}else if(totalWidth != "" && target === ""){
-    console.log("You haven't entered a target width. Please try again.");
+}else if(totalWidth != "" && target === ""){ //Set conditions to check
+    console.log("You haven't entered a target width. Please try again."); //Print to console log if conditions are true
 }
