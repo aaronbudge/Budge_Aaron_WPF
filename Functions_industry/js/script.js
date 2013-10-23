@@ -18,4 +18,6 @@ if(totalWidth === "" && target === ""){ //Set conditions to check
     console.log("You haven't entered a total width. Please try again."); //Print to console log if conditions are true
 }else if(totalWidth != "" && target === ""){ //Set conditions to check
     console.log("You haven't entered a target width. Please try again."); //Print to console log if conditions are true
+}else{
+    console.log("Your targeted width of " + target + " pixels is approximately " + percent + "\% of your total available width.");
 }
