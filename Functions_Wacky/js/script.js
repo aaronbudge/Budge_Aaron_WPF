@@ -13,3 +13,7 @@ function calcVampOdds(s, a){ //Named and initialized function and set parameters
 }
 
 var odds = calcVampOdds(skin, aging); //Declare result variable for function return after being called, and set arguments
+
+if(sunlight === "a"){
+    console.log("Vampires cannot be in sunlight. Your neighbors are not vampires.");
+}
