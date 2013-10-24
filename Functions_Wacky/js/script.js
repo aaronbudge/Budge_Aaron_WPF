@@ -11,3 +11,5 @@ var sunlight = prompt("Have you ever seen them in sunlight?\n\(a\) Yes\n\(b\) No
 function calcVampOdds(s, a){ //Named and initialized function and set parameters
     return s * a; //Code to perform and return when function is called
 }
+
+var odds = calcVampOdds(skin, aging)
