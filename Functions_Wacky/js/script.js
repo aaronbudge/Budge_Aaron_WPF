@@ -26,4 +26,6 @@ if(sunlight === "a"){ //Condition to check
             console.log("Vampires do not sustain injuries. Your neighbors are not vampires."); //Print out to console if condition is true
         }else if(odds < 50){ //Set condition to check if previous statement is false
             console.log("Based on your answers, there is a " + odds + "\% chance your neighbors are Vampires. You may want to gather more information just to be sure.");//Print out to console log if condition is true
+        }else if(odds > 75){
+            console.log("Based on your answers, there is a " + odds + "\% chance your neighbors are Vampires. Now would be a good time to stock up on crosses and holy water.");
         }
