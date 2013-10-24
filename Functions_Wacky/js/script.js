@@ -4,4 +4,4 @@
 
 // Calculate the chances your neighbors are Vampires
 
-var skin = prompt("On a scale of 1 - 10, how pale is their skin?");
+var skin = prompt("On a scale of 1 - 10, how pale is their skin?"); //Declared variable and initialized user prompt to rate paleness of skin
