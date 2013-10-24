@@ -12,4 +12,4 @@ function calcVampOdds(s, a){ //Named and initialized function and set parameters
     return s * a; //Code to perform and return when function is called
 }
 
-var odds = calcVampOdds(skin, aging)
+var odds = calcVampOdds(skin, aging); //Declare result variable for function return after being called, and set arguments
