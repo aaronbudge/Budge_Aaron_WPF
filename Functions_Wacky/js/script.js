@@ -16,4 +16,8 @@ var odds = calcVampOdds(skin, aging); //Declare result variable for function ret
 
 if(sunlight === "a"){ //Condition to check
     console.log("Vampires cannot be in sunlight. Your neighbors are not vampires.");//Print out to console log if condition is true
-}
+}else{
+    var food = prompt("Have you ever seen them consume any food?\n\(a\) Yes\n\(b\) No");
+    if(food === "a"){
+        console.log("Vampires do not consume food. Your neighbors are not vampires.");
+    }
