@@ -20,4 +20,8 @@ if(sunlight === "a"){ //Condition to check
     var food = prompt("Have you ever seen them consume any food?\n\(a\) Yes\n\(b\) No"); //Declare variable and initiate user prompt
     if(food === "a"){ //Set condition to check
         console.log("Vampires do not consume food. Your neighbors are not vampires."); //Print out to console if condition is true
-    }
+    }else{
+        var injury = prompt("Have you ever seen them sustain an injury?\n\(a\) Yes\n\(b\) No");
+        if(injury === "a"){
+            console.log("Vampires do not sustain injuries. Your neighbors are not vampires.");
+        }
