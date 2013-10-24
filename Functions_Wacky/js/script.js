@@ -24,6 +24,6 @@ if(sunlight === "a"){ //Condition to check
         var injury = prompt("Have you ever seen them sustain an injury?\n\(a\) Yes\n\(b\) No"); //Declared variable and initiate user prompt
         if(injury === "a"){ //Set condition to check
             console.log("Vampires do not sustain injuries. Your neighbors are not vampires."); //Print out to console if condition is true
-        }else if(odds < 50){
-            console.log("Based on your answers, there is a " + odds + "\% chance your neighbors are Vampires. You may want to gather more information just to be sure.");
+        }else if(odds < 50){ //Set condition to check if previous statement is false
+            console.log("Based on your answers, there is a " + odds + "\% chance your neighbors are Vampires. You may want to gather more information just to be sure.");//Print out to console log if condition is true
         }
